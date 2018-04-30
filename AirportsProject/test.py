@@ -1,14 +1,14 @@
 from Aircraft import *
 from Airport import *
 from Utility import *
-from Utility import Graph as graph
-from Utility import shortest_path as sp
+from Graph import Graph as graph
+from Graph import shortest_path as sp
 from Color import *
 from Reader import Reader as reader
 import unittest
 
 
-class TestSetAdt(unittest.TestCase):
+class TestAirports(unittest.TestCase):
     """ A class to test functions in this project """
     
     def test_aircraft(self):
@@ -106,5 +106,5 @@ class TestSetAdt(unittest.TestCase):
         
         
 if __name__ == "__main__":
-    suite = unittest.defaultTestLoader.loadTestsFromTestCase(TestSetAdt)
+    suite = unittest.defaultTestLoader.loadTestsFromTestCase(TestAirports)
     unittest.TextTestRunner().run(suite)

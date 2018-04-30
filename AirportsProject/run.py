@@ -1,8 +1,8 @@
 from Aircraft import *
 from Airport import *
 from Utility import *
-from Utility import Graph as graph
-from Utility import shortest_path as sp
+from Graph import *
+from Graph import shortest_path as sp
 from Color import *
 from Reader import Reader as reader
 import csv
