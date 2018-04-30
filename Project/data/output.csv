@@ -1,0 +1,6 @@
+Original Input,Optimal Path,Cost/Conclusion
+"['DUB', 'LHR', 'SYD', 'JFK', 'AAL', '777']",,NOT FEASIBLE
+"['SNN', 'ORK', 'MAN', 'CDG', 'SIN', 'A330']","['SNN', 'ORK', 'MAN', 'CDG', 'SIN', 'SNN']",19884
+"['BOS', 'DFW', 'ORD', 'SFO', 'ATL', '737']","['BOS', 'ORD', 'ATL', 'DFW', 'SFO', 'BOS']",9712
+"['DUB', 'AAL', 'OSL', 'SVO', 'CDG', 'A330']","['DUB', 'CDG', 'AAL', 'OSL', 'SVO', 'DUB']",2080
+"['DUB', 'LHR', 'CDG', 'AUH', 'AAL', '777']","['DUB', 'LHR', 'CDG', 'AAL', 'AUH', 'DUB']",4174
