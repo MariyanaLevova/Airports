@@ -1,10 +1,10 @@
-from Project.Aircraft import Aircraft
-from Project.Airport import Airport
-from Project.Utility import *
-from Project.Utility import Graph as graph
-from Project.Utility import shortest_path as sp
-from Project.Color import *
-import Project.Reader as reader
+from Aircraft import *
+from Airport import *
+from Utility import *
+from Utility import Graph as graph
+from Utility import shortest_path as sp
+from Color import *
+from Reader import Reader as reader
 import unittest
 
 
@@ -96,7 +96,6 @@ class TestSetAdt(unittest.TestCase):
         
     def test_color(self):
         print("hello")
-        print(Color.BOLD+"hello"+Color.END)
         print(Color.GREEN+"hello"+Color.END)
         print(Color.CYAN+"hello"+Color.END)
         print(Color.DARKCYAN+"hello"+Color.END)

@@ -1,4 +1,4 @@
-import Project.Reader as reader
+import Reader as reader
 
 aircraft = reader.Reader.aircraft_reader()
 

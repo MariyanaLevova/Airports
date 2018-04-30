@@ -3,7 +3,7 @@ import collections
 import math
 import networkx as nx
 import matplotlib.pyplot as plt
-import Project.Reader as reader
+import Reader as reader
 
 airports = reader.Reader.airport_reader()
 aircraft = reader.Reader.aircraft_reader()

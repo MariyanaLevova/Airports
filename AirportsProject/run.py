@@ -1,11 +1,15 @@
-from Project.Aircraft import Aircraft
-from Project.Airport import Airport
-from Project.Utility import shortest_path as sp
-from Project.Color import *
-from Project.Utility import *
+from Aircraft import *
+from Airport import *
+from Utility import *
+from Utility import Graph as graph
+from Utility import shortest_path as sp
+from Color import *
+from Reader import Reader as reader
 import csv
 from numpy import empty
 from _overlapped import NULL
+
+
 
 
 def compute(array):

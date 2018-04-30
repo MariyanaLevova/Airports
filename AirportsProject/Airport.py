@@ -1,5 +1,5 @@
-import Project.Reader as reader
-from Project.Color import Color as color
+import Reader as reader
+import Color as color
 
 airports = reader.Reader.airport_reader()
 country_currency = reader.Reader.country_currency_reader()
